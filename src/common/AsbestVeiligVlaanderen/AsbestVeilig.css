@@ -1,0 +1,16 @@
+.asbest-veilig {
+    font-weight: 600;
+    margin-bottom: 1rem;
+
+    padding: .2rem .4rem;
+    display: inline-block;
+    background: linear-gradient(
+            157.81deg,
+            var(--color-pink-50) -43.27%,
+            var(--color-pink-200) -21.24%,
+            var(--color-pink-400) 12.19%,
+            var(--color-pink-600) 29.82%,
+            var(--color-pink-800) 51.94%,
+            var(--color-pink-900) 90.29%
+    );
+}

@@ -1,0 +1,28 @@
+.nav-item {
+    color: var(--color-brand-950);
+    display: inline-block;
+    font-weight: 500;
+    list-style: none !important;
+    position: relative;
+    text-decoration: none;
+
+    &:hover {
+        color: var(--color-brand-900);
+        cursor: pointer;
+
+        &::after {
+            width: 100%;
+        }
+    }
+
+    &::after {
+        background: var(--color-pink-500);
+        bottom: -6px;
+        content: "";
+        height: 3px;
+        left: 0;
+        position: absolute;
+        transition: .5s;
+        width: 0;
+    }
+}

@@ -1,0 +1,36 @@
+/*WRAPPERS*/
+.flex-wrapper-horizontal {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-wrapper-vertical {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Centering container*/
+.container {
+    max-width: 120rem;
+    padding: 0 3.2rem;
+    margin: 0 auto;
+}
+
+/*GRIDS*/
+.grid {
+    display: grid;
+    column-gap: 6.4rem;
+    row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+    grid-template-columns: repeat(4, 1fr);
+}

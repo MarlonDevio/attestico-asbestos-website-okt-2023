@@ -1,0 +1,29 @@
+@import './Styles/styleHelpers/helpers.css';
+@import './Styles/styleFonts/styleFonts.css';
+@import './Styles/styleLayouts/styleLayouts.css';
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    background: #161618;
+    font-size:2rem;
+    color: white;
+    overflow: hidden;
+}
+
+h5  {
+    font-size: 2rem;
+}
+
+.construction {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    background: darkred;
+    font-size:2rem;
+    color: white;
+    overflow: hidden;
+}
