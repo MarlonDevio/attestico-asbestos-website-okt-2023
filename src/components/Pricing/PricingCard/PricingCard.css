@@ -1,0 +1,57 @@
+.pricing-card {
+    background: var(--color-brand-50);
+    border-radius: 0.9rem;
+    display: grid;
+    padding-bottom: 3rem;
+
+    & .img-container {
+        display: flex;
+        justify-content: center;
+        padding: 1rem 2rem;
+
+        & .logo-content {
+            padding: 3rem;
+            width: 100%;
+        }
+    }
+
+    & .text-container {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+
+        row-gap: 1rem;
+
+        & .card-name {
+            background: var(--color-green-500);
+            color: white;
+            display: block;
+            font-size: 1.6rem;
+            font-weight: 600;
+            grid-column: 1/-1;
+
+            justify-self: center;
+            padding: 1rem 2rem;
+            text-align: center;
+            transform: translateY(-50%);
+            width: 100%;
+        }
+
+        & .card-row {
+            align-items: center;
+            font-weight: 600;
+            justify-content: space-around;
+            padding: 0 0 2rem 0;
+        }
+
+        & .svg-img {
+            height: 2rem;
+            margin-right: .5rem;
+        }
+
+
+    }
+
+
+}

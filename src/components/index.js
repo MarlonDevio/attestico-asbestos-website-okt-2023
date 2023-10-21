@@ -9,6 +9,7 @@ import HowItWorks from './HowItWorks/HowItWorks.jsx';
 import Contact from './Contact/Contact.jsx';
 import Header from './Header/Header.jsx';
 import Step from './HowItWorks/Step/Step.jsx';
+import PricingCard from './Pricing/PricingCard/PricingCard.jsx';
 
 export {
 	Step,
@@ -20,5 +21,6 @@ export {
 	Home,
 	HowItWorks,
 	Pricing,
-	Navigation
+	Navigation,
+	PricingCard
 };
