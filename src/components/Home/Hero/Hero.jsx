@@ -4,12 +4,12 @@ import { AsbestVeilig, Button } from "../../../common/index.js";
 
 function Hero() {
   return (
-    <section className="section-hero">
+    <section className="section-hero section" id="home">
       <div className="hero">
         <div className="hero-text-box">
           <h1 className="heading-primary">
-            Razendsnel, <span className="coloured-span-green">Gekeurd</span> Binnen
-            Enkele Dagen
+            Razendsnel, <span className="coloured-span-green">Gekeurd</span>{" "}
+            Binnen Enkele Dagen
           </h1>
           <AsbestVeilig />
           <p className="hero-description">

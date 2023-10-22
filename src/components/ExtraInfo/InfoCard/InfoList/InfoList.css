@@ -1,0 +1,15 @@
+.infoList {
+    display: grid;
+    grid-template-columns: min-content 1fr;
+    list-style: none;
+    font-weight: 500;
+    grid-column-gap: 2rem;
+
+    & .infolist-text {
+        gap: 1rem;
+    }
+}
+
+.infoList-img {
+    height: 4rem;
+}

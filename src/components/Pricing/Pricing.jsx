@@ -5,7 +5,7 @@ import { PricingCard } from "../index.js";
 
 function Pricing({ targetRef }) {
   return (
-    <section id="pricing">
+    <section className="section" id="pricing">
       <div className="container">
         <SubHeading content="Tarieven" />
         <HeadingSecondary content="Investeren in AsbestVeiligheid" />

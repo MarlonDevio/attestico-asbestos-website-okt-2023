@@ -11,6 +11,7 @@ import {
   contact,
   customerService,
   discount,
+  EcoFriendly,
   extraFlask,
   extraTips,
   form,
@@ -22,6 +23,7 @@ import {
   klant1Vrouw,
   klant2Man,
   klant3Man,
+  klantenService,
   lamp,
   magnifyGlass,
   nonResidential,
@@ -29,6 +31,7 @@ import {
   questionMark,
   rocket,
   smallAppartment,
+  staalName,
   star,
   threeHouses,
   twoHouses,
@@ -311,6 +314,51 @@ export const disclaimer = [
   },
 ];
 
+export const extra = [
+  {
+    id: "staalname",
+    title: "Staalname",
+    details: "Veilig en Discreet",
+    extraInfo: [
+      "Nauwkeurig en subtiel",
+      "Flexibele Afspraken",
+      "Eco-vriendelijke methoden",
+    ],
+    logo: staalName,
+    className: "info-card info-card-img",
+    tag: ["betrouwbaarheid"],
+    icon: EcoFriendly,
+  },
+  {
+    id: "klantenservice",
+    title: "Klantenservice",
+    details: "Wij Zijn er Voor U",
+    extraInfo: ["24/7 Beschikbaar", "Proactieve Updates", "Op Maat Advies"],
+    logo: klantenService,
+    className: "info-card info-card-img",
+    tag: ["24/7 support ", "Proactief"],
+    icon: customerService,
+  },
+  {
+    id: "tips",
+    title: "Tips",
+    extraInfo: [
+      "Wees Voorbereid",
+      "Orden Documenten",
+      "Ruimtes Toegankelijk",
+      "Volg Protocol",
+      "Draag PBM",
+      "Houd Tijd Vrij",
+      "Check Ventilatie",
+      "Verwijder Obstakels",
+      "Dubbelcheck Alles",
+    ],
+    icon: extraTips,
+
+    className: "info-card tips",
+  },
+];
+
 export const FASES = [
   {
     title: "Uw Eerste Stap: Neem Contact Op",
@@ -362,14 +410,7 @@ export const WAT_U_MOET_WETEN = [
       "Verplaatsingen binnen Limburg zijn gratis. Voor andere regio's gelden kleine toeslagen.",
     ],
   },
-  {
-    title: "Staalname",
-    details: "Veilig en Discreet",
-    extraInfo: [
-      "Staalnames zijn niet-destructief en gebeuren altijd in overleg.",
-      "Standaard worden 2-3 stalen genomen bij gerenoveerde woningen.",
-    ],
-  },
+  {},
 ];
 
 export const EXTRA_DIENSTEN_EN_INFORMATIE = [
@@ -383,12 +424,6 @@ export const EXTRA_DIENSTEN_EN_INFORMATIE = [
     logo: extraFlask,
   },
   {
-    title: "Klantenservice",
-    details: "Wij Zijn er Voor U",
-    extraInfo: [
-      "We houden u op de hoogte van alle bevindingen en labresultaten.",
-      "Bij vragen of speciale verzoeken, aarzel niet om te bellen of mailen.",
-    ],
     logo: customerService,
   },
   {

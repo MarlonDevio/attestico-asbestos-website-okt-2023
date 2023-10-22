@@ -1,7 +1,11 @@
 import "./About.css";
 
 function About() {
-  return <section id="about"> About </section>;
+  return (
+    <section className="section" id="about">
+      Over Ons
+    </section>
+  );
 }
 
 export default About;

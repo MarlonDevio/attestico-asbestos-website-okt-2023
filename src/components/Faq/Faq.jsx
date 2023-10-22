@@ -1,7 +1,12 @@
 import "./Faq.css";
 
 function Faq() {
-  return <section id="faq"> Faq </section>;
+  return (
+    <section className="section" id="faq">
+      {" "}
+      Faq{" "}
+    </section>
+  );
 }
 
 export default Faq;

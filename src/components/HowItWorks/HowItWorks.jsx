@@ -4,7 +4,7 @@ import { FASES } from "../../constants/constants.js";
 
 function HowItWorks() {
   return (
-    <section id="how-it-works">
+    <section className="section" id="how-it-works">
       <div className="container">
         <span className="subheading">Hoe het Werkt bij Attestico</span>
         <h2 className="heading-secondary">

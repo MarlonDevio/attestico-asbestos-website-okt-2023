@@ -2,6 +2,7 @@ import "./App.css";
 import {
   About,
   Contact,
+  ExtraInfo,
   Faq,
   Header,
   Home,
@@ -23,6 +24,7 @@ function App() {
       <Header targetRef={contacRef} />
       <Home />
       <HowItWorks />
+      <ExtraInfo />
       {/*<Services />*/}
       <Pricing targetRef={contacRef} />
       {/*<About />*/}
