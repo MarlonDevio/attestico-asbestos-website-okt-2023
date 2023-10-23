@@ -3,11 +3,9 @@ import { Button, Logo } from "../../../common/index.js";
 import { navbarItems } from "../../../constants/constants.js";
 import ListItem from "../../../common/listItem/listItem.jsx";
 import { useMediaQuery } from "../../../utils/index.js";
-import { useState } from 'react';
+import { useState } from "react";
 
-
-
-function Navigation({targetRef}) {
+function Navigation({ targetRef }) {
   const isDesktop = useMediaQuery("(min-width: 960px)");
   const [navVisible, setNavVisible] = useState(false);
 
@@ -17,7 +15,12 @@ function Navigation({targetRef}) {
 
       <nav>
         {!isDesktop && (
-          <button className="nav-burger" onClick={() => setNavVisible(!navVisible)}>&#9746;</button>
+          <button
+            className="nav-burger"
+            onClick={() => setNavVisible(!navVisible)}
+          >
+            &#9746;
+          </button>
         )}
         <ul
           className={`main-nav-list ${
@@ -34,7 +37,12 @@ function Navigation({targetRef}) {
           }
         >
           {!isDesktop && navVisible && (
-            <button className="nav-burger" onClick={() => setNavVisible(!navVisible)}>Close</button>
+            <button
+              className="nav-burger"
+              onClick={() => setNavVisible(!navVisible)}
+            >
+              Close
+            </button>
           )}
           {navbarItems.map((item) => (
             <ListItem
@@ -47,7 +55,7 @@ function Navigation({targetRef}) {
             />
           ))}
 
-          <li >
+          <li>
             <Button
               className="btn--full"
               content="Contact"

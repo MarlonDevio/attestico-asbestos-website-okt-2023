@@ -373,6 +373,7 @@ export const FASES = [
     style: {
       gridRow: "1",
     },
+    hasEmailFunctionality: true,
   },
   {
     title: "Opdrachtformulier: Uw Sleutel tot Snelheid",
@@ -386,6 +387,7 @@ export const FASES = [
     style: {
       gridRow: "2",
     },
+    hasPDFFunctionality: true,
   },
   {
     title: "Plaatsbezoek: Snel en Effectief",
