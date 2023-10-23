@@ -1,5 +1,7 @@
 import "./InfoCard.css";
 import { InfoList } from "../../index.js";
+import { ButtonComponent } from "../../../common/index.js";
+import { handleEmailClick } from "../../../utils/helpers.js";
 
 function InfoCard({ content, icon }) {
   return (
@@ -25,6 +27,14 @@ function InfoCard({ content, icon }) {
         <p>{content.title}</p>
         <InfoList icon={icon} content={content} />
       </div>
+      {content.hasButton && (
+        <ButtonComponent
+          content={"Vrijblijvend Advies"}
+          className={"btn--green--button"}
+          style={{ alignSelf: "center" }}
+          onClick={handleEmailClick}
+        />
+      )}
     </div>
   );
 }

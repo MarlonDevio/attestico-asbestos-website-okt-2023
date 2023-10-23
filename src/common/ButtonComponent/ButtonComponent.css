@@ -3,7 +3,8 @@
     border: none;
     color: #fff;
     display: inline-block;
-    font-size: 2rem;
+    font-size: 1.6rem;
+    margin-top: 1rem;
     font-weight: 500;
     padding: 1.0rem 2.2rem;
     text-decoration: none;
@@ -11,10 +12,18 @@
 
 }
 
-.btn--pink--button {
+.btn--green--button {
     background-color: var(--color-green-500);
 
     &:hover {
         background-color: var(--color-green-700);
+    }
+}
+
+.btn--pink--button {
+    background-color: var(--color-pink-500);
+
+    &:hover {
+        background-color: var(--color-pink-700);
     }
 }

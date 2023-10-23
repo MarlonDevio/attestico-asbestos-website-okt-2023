@@ -19,3 +19,14 @@ export { getKeysFromArrOfObjects, generateNewObjs };
 
 // test createNewObj
 // console.log(createNewObj(icons, "icon"));
+
+export const handleEmailClick = () => {
+  window.location.href = "mailto:info@attestico.be";
+};
+export const openPDFInNewTab = () => {
+  window.open(
+    "src/assets/pdf/opdrachtformulier.pdf",
+    "_blank",
+    "noopener,noreferrer",
+  );
+};

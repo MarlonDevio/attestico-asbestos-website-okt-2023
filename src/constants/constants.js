@@ -356,6 +356,7 @@ export const extra = [
     icon: extraTips,
 
     className: "info-card tips",
+    hasButton: true,
   },
 ];
 
