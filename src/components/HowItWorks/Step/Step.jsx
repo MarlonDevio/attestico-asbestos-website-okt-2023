@@ -8,7 +8,7 @@ function Step({ content, isEven }) {
 
   const openPDFInNewTab = () => {
     window.open(
-      "src/assets/pdf/opdrachtformulier.pdf",
+      "public/pdf/opdrachtformulier.pdf",
       "_blank",
       "noopener,noreferrer",
     );
