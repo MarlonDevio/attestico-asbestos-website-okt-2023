@@ -1,23 +1,25 @@
 import "./Pricing.css";
-import { HeadingSecondary, SubHeading } from "../../common/index.js";
-import { tarieven } from "../../constants/constants.js";
-import { PricingCard } from "../index.js";
+import {HeadingSecondary, SubHeading} from "../../common/index.js";
+import {tarieven} from "../../constants/constants.js";
+import {Disclaimer, PricingCard} from "../index.js";
 
-function Pricing({ targetRef }) {
-  return (
-    <section className="section" id="pricing">
-      <div className="container">
-        <SubHeading content="Tarieven" />
-        <HeadingSecondary content="Investeren in AsbestVeiligheid" />
-      </div>
+function Pricing({targetRef}) {
+    return (
+        <section className="section" id="pricing">
+            <div className="container">
+                <SubHeading content="Tarieven"/>
+                <HeadingSecondary content="Investeren in AsbestVeiligheid"/>
+            </div>
 
-      <div className="container grid grid--3-cols">
-        {tarieven.map((item) => (
-          <PricingCard targetRef={targetRef} key={item.id} content={item} />
-        ))}
-      </div>
-    </section>
-  );
+            <div className="container grid grid--3-cols">
+                {tarieven.map((item) => (
+                    <PricingCard targetRef={targetRef} key={item.id} content={item}/>
+                ))}
+            </div>
+
+            <Disclaimer/>
+        </section>
+    );
 }
 
 export default Pricing;

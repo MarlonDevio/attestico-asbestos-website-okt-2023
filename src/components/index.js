@@ -13,8 +13,10 @@ import PricingCard from "./Pricing/PricingCard/PricingCard.jsx";
 import InfoCard from "./ExtraInfo/InfoCard/InfoCard.jsx";
 import ExtraInfo from "./ExtraInfo/ExtraInfo.jsx";
 import InfoList from "./ExtraInfo/InfoCard/InfoList/InfoList.jsx";
+import Disclaimer from "./Pricing/Disclaimer/Disclaimer.jsx";
 
 export {
+  Disclaimer,
   InfoList,
   InfoCard,
   ExtraInfo,
