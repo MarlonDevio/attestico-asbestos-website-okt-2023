@@ -1,6 +1,7 @@
 import "./Hero.css";
 import { asbestInspection } from "../../../assets/index.js";
-import { AsbestVeilig, Button } from "../../../common/index.js";
+import {AsbestVeilig, Button, ButtonComponent} from "../../../common/index.js";
+import {handleEmailClick} from "../../../utils/helpers.js";
 
 function Hero() {
   return (
@@ -23,8 +24,9 @@ function Hero() {
           <Button
             className="btn--full margin-right-sm"
             content="Claim je attest nu"
+            onClick={handleEmailClick}
           />
-          <Button className="btn--outline" content={<>Ontdek meer &darr;</>} />
+          <Button className="btn--outline" content={<>Ontdek meer &darr;</>} href={"how-it-works"}/>
         </div>
         <div className="hero-img-box">
           <img

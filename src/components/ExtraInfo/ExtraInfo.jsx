@@ -5,7 +5,6 @@ import { extra } from "../../constants/constants.js";
 import { generateNewObjs } from "../../utils/helpers.js";
 
 function ExtraInfo() {
-  const newObj = generateNewObjs(extra, "icon");
 
   return (
     <section className="section" id="extra-info">

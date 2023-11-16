@@ -1,8 +1,9 @@
 import "./PricingCard.css";
 import { euroSign, size } from "../../../assets/index.js";
-import { Button } from "../../../common/index.js";
+import {Button, ButtonComponent} from "../../../common/index.js";
+import {handleEmailClick} from "../../../utils/helpers.js";
 
-function PricingCard({ content, targetRef }) {
+function PricingCard({ content}) {
   return (
     <div className="pricing-card">
       <div className="img-container">
@@ -20,14 +21,14 @@ function PricingCard({ content, targetRef }) {
         </div>
       </div>
 
-      <Button
+      <ButtonComponent
         style={{
           fontSize: "1.8rem",
           justifySelf: "center",
           padding: "1rem 1.5rem",
         }}
-        targetRef={targetRef}
-        className={"btn--pink"}
+        onClick={handleEmailClick}
+        className={"btn--pink--button"}
         content="Contact"
       />
     </div>

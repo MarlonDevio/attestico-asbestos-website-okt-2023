@@ -14,8 +14,12 @@ import InfoCard from "./ExtraInfo/InfoCard/InfoCard.jsx";
 import ExtraInfo from "./ExtraInfo/ExtraInfo.jsx";
 import InfoList from "./ExtraInfo/InfoCard/InfoList/InfoList.jsx";
 import Disclaimer from "./Pricing/Disclaimer/Disclaimer.jsx";
+import ServicesCards from "./Services/ServicesCards/ServicesCards.jsx";
+import ServiceCard from "./Services/ServicesCards/ServiceCard/ServiceCard.jsx";
 
 export {
+  ServicesCards,
+  ServiceCard,
   Disclaimer,
   InfoList,
   InfoCard,

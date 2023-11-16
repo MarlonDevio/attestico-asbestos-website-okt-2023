@@ -23,11 +23,11 @@ function App() {
       </div>
       <Header targetRef={contacRef} />
       <Home />
+      <Services />
       <HowItWorks />
       <ExtraInfo />
-      {/*<Services />*/}
       <Pricing targetRef={contacRef} />
-      {/*<About />*/}
+      <About />
       {/*<Faq />*/}
       <Contact targetRef={contacRef} />
       <div className="construction">

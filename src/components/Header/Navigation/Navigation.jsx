@@ -4,6 +4,7 @@ import { navbarItems } from "../../../constants/constants.js";
 import ListItem from "../../../common/listItem/listItem.jsx";
 import { useMediaQuery } from "../../../utils/index.js";
 import { useState } from "react";
+import {handleEmailClick} from "../../../utils/helpers.js";
 
 function Navigation({ targetRef }) {
   const isDesktop = useMediaQuery("(min-width: 960px)");
@@ -60,7 +61,7 @@ function Navigation({ targetRef }) {
               className="btn--full"
               content="Contact"
               style={{ padding: "1rem 2rem" }}
-              targetRef={targetRef}
+              onClick={handleEmailClick}
             />
           </li>
         </ul>

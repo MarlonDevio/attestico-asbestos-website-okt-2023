@@ -1,6 +1,5 @@
 import "./InfoList.css";
 import React from "react";
-import { generateNewObjs } from "../../../../utils/helpers.js";
 
 function InfoList({ content, icon }) {
   // const { extraInfo } = content;

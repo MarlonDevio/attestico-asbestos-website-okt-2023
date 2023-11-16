@@ -1,15 +1,12 @@
 import "./Button.css";
 
-function Button({ className, content, style, targetRef, onClick }) {
-  const handleClick = () => {
-    targetRef.current.scrollIntoView({ behavior: "smooth" });
-  };
+function Button({ className, content, style, href, onClick }) {
   return (
     <a
       style={style}
       className={`btn ${className}`}
-      onClick={handleClick}
-      href={"#"}
+      onClick={onClick}
+      href={`#${href}`}
     >
       {content}
     </a>
