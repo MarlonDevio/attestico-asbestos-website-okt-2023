@@ -16,7 +16,7 @@
     }
 
     &::after {
-        background: var(--color-pink-500);
+        background: var(--color-red-500);
         bottom: -6px;
         content: "";
         height: 3px;
