@@ -21,7 +21,7 @@ export { getKeysFromArrOfObjects, generateNewObjs };
 // console.log(createNewObj(icons, "icon"));
 
 export const handleEmailClick = () => {
-  window.location.href = "mailto:info@attestico.be";
+  window.location.href = "mailto:ricardodicostanzo@outlook.com";
 };
 export const openPDFInNewTab = () => {
   window.open(

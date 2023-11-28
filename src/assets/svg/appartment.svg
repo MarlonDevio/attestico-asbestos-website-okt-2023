@@ -1,6 +1,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
-<svg fill="#dd7d96"
+<svg fill="#f12834"
      width="800px"
      height="800px"
      viewBox="0 0 24 24"
@@ -20,11 +20,11 @@
 
         <path id="secondary"
               d="M11,21V15H7v6ZM7,7h4M7,11h4"
-              style="fill: none; stroke: #dd7d96; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+              style="fill: none; stroke: #f12834; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
 
         <path id="primary"
               d="M15,21H3V4A1,1,0,0,1,4,3H14a1,1,0,0,1,1,1Zm0,0h6V7a1,1,0,0,0-1-1H15Z"
-              style="fill: none; stroke: #dd7d96; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+              style="fill: none; stroke: #f12834; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
 
     </g>
 

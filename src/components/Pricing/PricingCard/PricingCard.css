@@ -25,7 +25,7 @@
         row-gap: 1rem;
 
         & .card-name {
-            background: var(--color-green-500);
+            background: var(--color-red-500);
             color: white;
             display: block;
             font-size: 1.6rem;

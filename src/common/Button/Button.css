@@ -10,11 +10,11 @@
 }
 
 .btn--full:link, .btn--full:visited {
-    background-color: var(--color-green-500);
+    background-color: var(--color-red-500);
 }
 
 .btn--full:hover, .btn--full:active {
-    background-color: var(--color-green-600);
+    background-color: var(--color-red-600);
 }
 
 .btn--outline:link, .btn--outline:visited {

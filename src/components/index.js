@@ -16,8 +16,12 @@ import InfoList from "./ExtraInfo/InfoCard/InfoList/InfoList.jsx";
 import Disclaimer from "./Pricing/Disclaimer/Disclaimer.jsx";
 import ServicesCards from "./Services/ServicesCards/ServicesCards.jsx";
 import ServiceCard from "./Services/ServicesCards/ServiceCard/ServiceCard.jsx";
+import ContactForm from "./ContactForm/ContactForm.jsx";
+import Footer from "./Footer/Footer.jsx";
 
 export {
+  Footer,
+  ContactForm,
   ServicesCards,
   ServiceCard,
   Disclaimer,

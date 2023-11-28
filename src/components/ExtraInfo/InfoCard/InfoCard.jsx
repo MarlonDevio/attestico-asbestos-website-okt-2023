@@ -30,7 +30,7 @@ function InfoCard({ content, icon }) {
       {content.hasButton && (
         <ButtonComponent
           content={"Vrijblijvend Advies"}
-          className={"btn--green--button"}
+          className={"btn--red--button"}
           style={{ alignSelf: "center" }}
           onClick={handleEmailClick}
         />

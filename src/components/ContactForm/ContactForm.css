@@ -1,0 +1,48 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem; /* Ruimte tussen form elementen */
+}
+
+label {
+    font-size: 1.6rem;
+    color: #333333; /* Donkergrijze kleur voor tekst */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: 1px solid #cccccc; /* Een lichte border voor de inputs */
+    border-radius: 4px; /* Afgeronde hoeken voor de inputs */
+    font-size: 1.4rem; /* Een comfortabele font grootte */
+    margin-top: 0.5rem; /* Ruimte boven de inputs */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    border-color: #f12834; /* De kleur wanneer de input gefocust is */
+    outline: none; /* Verwijder de standaard focus outline */
+}
+
+textarea {
+    height: 12rem; /* Stel een start hoogte in voor het textarea */
+    resize: vertical; /* Sta alleen verticaal resizen toe */
+}
+
+button[type="submit"] {
+    padding: 1.2rem 2.4rem;
+    background-color: #f12834; /* Jouw specifieke rode kleur */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Een transitie voor de hover effect */
+}
+
+button[type="submit"]:hover {
+    background-color: #d1162a; /* Een iets donkerdere rode kleur voor de hover state */
+}

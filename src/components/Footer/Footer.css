@@ -1,0 +1,23 @@
+/*@import "../../index.css";*/
+
+footer {
+    background-color: var(--color-red-500);
+    font-weight: 800;
+    padding: 2rem 2rem;
+}
+.footer__container {
+    padding: 4rem 0;
+}
+.footer__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    grid-column-gap: 20rem;
+    grid-row-gap: 3rem;
+}
+
+@media screen and (max-width: 720px){
+    .footer__grid {
+        grid-template-columns: 1fr;
+    }
+}

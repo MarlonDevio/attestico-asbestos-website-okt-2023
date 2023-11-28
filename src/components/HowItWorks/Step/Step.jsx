@@ -7,11 +7,7 @@ function Step({ content, isEven }) {
   const isDesktop = useMediaQuery("(min-width: 900px)");
 
   const openPDFInNewTab = () => {
-    window.open(
-      "/opdrachtformulier.pdf",
-      "_blank",
-      "noopener,noreferrer",
-    );
+    window.open("/opdrachtformulier.pdf", "_blank", "noopener,noreferrer");
   };
 
   return (
@@ -25,9 +21,9 @@ function Step({ content, isEven }) {
         <p className="step-description">
           {content.steps.map((step, index) => (
             <p key={index}>
-              {step === "Mail naar info@attestico.be." ? (
-                <a href="mailto:info@attestico.be">
-                  Mail naar info@attestico.be
+              {step === "Mail naar ricardodicostanzo@outlook.com." ? (
+                <a href="mailto:ricardodicostanzo@outlook.com">
+                  Mail naar ricardodicostanzo@outlook.com
                 </a>
               ) : step === "Wilt u liever online boeken? Dat kan ook!" ? (
                 <p>
@@ -43,7 +39,7 @@ function Step({ content, isEven }) {
           <ButtonComponent
             content={"Mail ons"}
             onClick={handleEmailClick}
-            className={"btn--green--button"}
+            className={"btn--red--button"}
           />
         )}
         {content.hasPDFFunctionality && (

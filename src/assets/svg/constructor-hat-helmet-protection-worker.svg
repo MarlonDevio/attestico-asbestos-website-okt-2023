@@ -8,8 +8,8 @@
      xml:space="preserve"
      width="800px"
      height="800px"
-     fill="#dd7d96"
-     stroke="#dd7d96">
+     fill="#f12834"
+     stroke="#f12834">
 
 <g id="SVGRepo_bgCarrier"
    stroke-width="0"/>
@@ -18,7 +18,7 @@
        stroke-linecap="round"
        stroke-linejoin="round"/>
 
-    <g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#dd7d96;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:none;stroke:#dd7d96;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;} .st2{fill:none;stroke:#dd7d96;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;} </style>
+    <g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:none;stroke:#f12834;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;} .st1{fill:none;stroke:#f12834;stroke-width:2;stroke-linejoin:round;stroke-miterlimit:10;} .st2{fill:none;stroke:#f12834;stroke-width:2;stroke-linecap:round;stroke-miterlimit:10;} </style>
         <line class="st0"
               x1="8"
               y1="12"

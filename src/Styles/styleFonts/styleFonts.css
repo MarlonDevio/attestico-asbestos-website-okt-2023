@@ -22,7 +22,7 @@
     font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1.6rem;
-    color: var(--color-green-700);
+    color: var(--color-red-700);
     letter-spacing: 0.55px;
 }
 
@@ -33,19 +33,19 @@
 
 }
 
-.coloured-span-green {
+.coloupink-span-red {
     background: radial-gradient(
             64.18% 64.18% at 71.16% 35.69%,
-            var(--color-green-300) 0%,
-            var(--color-green-400) 11%,
-            var(--color-green-500) 22%,
-            var(--color-green-500) 33%,
-            var(--color-green-500) 44%,
-            var(--color-green-500) 55%,
-            var(--color-green-600) 66%,
-            var(--color-green-600) 77%,
-            var(--color-green-600) 88%,
-            var(--color-green-700) 100%
+            var(--color-red-300) 0%,
+            var(--color-red-400) 11%,
+            var(--color-red-500) 22%,
+            var(--color-red-500) 33%,
+            var(--color-red-500) 44%,
+            var(--color-red-500) 55%,
+            var(--color-red-600) 66%,
+            var(--color-red-600) 77%,
+            var(--color-red-600) 88%,
+            var(--color-red-700) 100%
     );
     -webkit-background-clip: text;
     background-clip: text;
@@ -53,7 +53,7 @@
     text-fill-color: transparent;
 }
 
-.coloured-span-pink {
+.coloupink-span-pink {
     background: linear-gradient(
             157.81deg,
             var(--color-pink-50) -43.27%,

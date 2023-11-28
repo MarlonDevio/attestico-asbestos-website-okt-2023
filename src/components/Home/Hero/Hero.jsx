@@ -1,7 +1,11 @@
 import "./Hero.css";
 import { asbestInspection } from "../../../assets/index.js";
-import {AsbestVeilig, Button, ButtonComponent} from "../../../common/index.js";
-import {handleEmailClick} from "../../../utils/helpers.js";
+import {
+  AsbestVeilig,
+  Button,
+  ButtonComponent,
+} from "../../../common/index.js";
+import { handleEmailClick } from "../../../utils/helpers.js";
 
 function Hero() {
   return (
@@ -9,7 +13,7 @@ function Hero() {
       <div className="hero">
         <div className="hero-text-box">
           <h1 className="heading-primary">
-            Razendsnel, <span className="coloured-span-green">Gekeurd</span>{" "}
+            Razendsnel, <span className="coloupink-span-red">Gekeurd</span>{" "}
             Binnen Enkele Dagen
           </h1>
           <AsbestVeilig />
@@ -26,7 +30,11 @@ function Hero() {
             content="Claim je attest nu"
             onClick={handleEmailClick}
           />
-          <Button className="btn--outline" content={<>Ontdek meer &darr;</>} href={"how-it-works"}/>
+          <Button
+            className="btn--outline"
+            content={<>Ontdek meer &darr;</>}
+            href={"how-it-works"}
+          />
         </div>
         <div className="hero-img-box">
           <img

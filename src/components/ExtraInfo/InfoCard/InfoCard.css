@@ -32,7 +32,7 @@
             background-color: var(--color-pink-500);
 
             &:first-child {
-                background-color: var(--color-green-300);
+                background-color: var(--color-red-300);
             }
 
         }

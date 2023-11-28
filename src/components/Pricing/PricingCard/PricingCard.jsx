@@ -1,9 +1,9 @@
 import "./PricingCard.css";
 import { euroSign, size } from "../../../assets/index.js";
-import {Button, ButtonComponent} from "../../../common/index.js";
-import {handleEmailClick} from "../../../utils/helpers.js";
+import { Button, ButtonComponent } from "../../../common/index.js";
+import { handleEmailClick } from "../../../utils/helpers.js";
 
-function PricingCard({ content}) {
+function PricingCard({ content }) {
   return (
     <div className="pricing-card">
       <div className="img-container">

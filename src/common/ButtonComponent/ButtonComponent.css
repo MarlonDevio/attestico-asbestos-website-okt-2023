@@ -12,11 +12,11 @@
 
 }
 
-.btn--green--button {
-    background-color: var(--color-green-500);
+.btn--red--button {
+    background-color: var(--color-red-500);
 
     &:hover {
-        background-color: var(--color-green-700);
+        background-color: var(--color-red-700);
     }
 }
 

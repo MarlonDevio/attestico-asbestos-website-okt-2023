@@ -20,7 +20,6 @@
     /*PINK SHADE*/
 
 
-    --color-red-500: #f12834;
     --color-pink-50: #fbeff2;
     --color-pink-100: #f6dee5;
     --color-pink-200: #f2ced8;
@@ -69,16 +68,18 @@
     --color-indigo-700: #4338ca;
 
     /* Red */
-    --color-red-50: #fef2f2;
-    --color-red-100: #fee2e2;
-    --color-red-200: #fecaca;
-    --color-red-300: #fca5a5;
-    --color-red-400: #f87171;
-    --color-red-500: #ef4444;
-    --color-red-600: #dc2626;
-    --color-red-700: #b91c1c;
-    --color-red-800: #991b1b;
-    --color-red-900: #7f1d1d;
+    --color-red-50: #fbe5e7;
+    --color-red-100: #f7cbcf;
+    --color-red-200: #f2b1b7;
+    --color-red-300: #ee969f;
+    --color-red-400: #e97c87;
+    --color-red-500: #f12834; /* Basis kleur */
+    --color-red-600: #d9212f;
+    --color-red-700: #c11a2a;
+    --color-red-800: #a91425;
+    --color-red-900: #910e20;
+    --color-red-950: #78081b;
+    --color-red-1000: #5f0216;
 
 
     --backdrop-color: rgba(255, 255, 255, 0.1);

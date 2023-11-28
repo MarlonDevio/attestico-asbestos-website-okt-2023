@@ -2,8 +2,10 @@ import "./App.css";
 import {
   About,
   Contact,
+  ContactForm,
   ExtraInfo,
   Faq,
+  Footer,
   Header,
   Home,
   HowItWorks,
@@ -17,22 +19,24 @@ function App() {
 
   return (
     <>
-      <div className="construction">
-        <div>WEBSITE UNDER CONSTRUCTION.</div>
-        Attestico Contact: 0488 48 09 33
-      </div>
+      {/*<div className="construction">*/}
+      {/*  <div>WEBSITE UNDER CONSTRUCTION.</div>*/}
+      {/*  Attestico Contact: 0488 48 09 33*/}
+      {/*</div>*/}
       <Header targetRef={contacRef} />
       <Home />
       <Services />
       <HowItWorks />
       <ExtraInfo />
       <Pricing targetRef={contacRef} />
-      <About />
+      {/*<About />*/}
       {/*<Faq />*/}
-      <Contact targetRef={contacRef} />
-      <div className="construction">
+      <ContactForm />
+      <Footer />
+      {/*<Contact targetRef={contacRef} />*/}
+      <div className="construction" style={{ background: "black" }}>
         <div>WEBSITE UNDER CONSTRUCTION.</div>
-        Attestico Contact: 0488 48 09 33
+        {/*  Attestico Contact: 0488 48 09 33*/}
       </div>
     </>
   );

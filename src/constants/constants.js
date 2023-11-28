@@ -368,7 +368,7 @@ export const FASES = [
     steps: [
       "Een telefoontje of e-mail, en u bent al begonnen.",
       "Bel ons op 0488 48 09 33",
-      "Mail naar info@attestico.be.",
+      "Mail naar ricardodicostanzo@outlook.com.",
       "Wilt u liever online boeken? Dat kan ook!",
     ],
     style: {
