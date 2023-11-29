@@ -1,10 +1,10 @@
 import "./ContactForm.css";
 
 const ContactForm = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Netlify zal de form submission afhandelen.
-  };
+  // const handleSubmit = (e) => {
+  //   e.preventDefault();
+  //   // Netlify zal de form submission afhandelen.
+  // };
 
   return (
     <section
@@ -18,7 +18,7 @@ const ContactForm = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          onSubmit={handleSubmit}
+          // onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
 
