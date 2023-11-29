@@ -1,10 +1,10 @@
 import "./ContactForm.css";
 
 const ContactForm = () => {
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   // Netlify zal de form submission afhandelen.
-  // };
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    // Netlify zal de form submission afhandelen.
+  };
 
   return (
     <section
@@ -18,20 +18,20 @@ const ContactForm = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          // onSubmit={handleSubmit}
+          onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
 
           <label htmlFor="name">
-            Naam: <input id="html-name" type="text" name="name" />
+            Naam: <input id="name" type="text" name="name" />
           </label>
 
           <label htmlFor="email">
-            Email: <input id="html-email" type="email" name="email" />
+            Email: <input id="email" type="email" name="email" />
           </label>
 
           <label htmlFor="message">
-            Bericht: <textarea id="html-message" name="message"></textarea>
+            Bericht: <textarea id="message" name="message"></textarea>
           </label>
 
           <button type="submit">Verstuur</button>
