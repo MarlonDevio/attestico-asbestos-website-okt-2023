@@ -18,29 +18,23 @@ const ContactForm = () => {
           name="contact"
           method="POST"
           data-netlify="true"
-          data-netlify-recaptcha="true"
           onSubmit={handleSubmit}
         >
           <input type="hidden" name="form-name" value="contact" />
-          <p>
-            <label htmlFor="name">
-              Naam: <input type="text" name="name" />
-            </label>
-          </p>
-          <p>
-            <label htmlFor="email">
-              Email: <input type="email" name="email" />
-            </label>
-          </p>
-          <p>
-            <label htmlFor="message">
-              Bericht: <textarea name="message"></textarea>
-            </label>
-          </p>
-          <div data-netlify-recaptcha="true"></div>
-          <p>
-            <button type="submit">Verstuur</button>
-          </p>
+
+          <label htmlFor="name">
+            Naam: <input id="html-name" type="text" name="name" />
+          </label>
+
+          <label htmlFor="email">
+            Email: <input id="html-email" type="email" name="email" />
+          </label>
+
+          <label htmlFor="message">
+            Bericht: <textarea id="html-message" name="message"></textarea>
+          </label>
+
+          <button type="submit">Verstuur</button>
         </form>
       </div>
     </section>
